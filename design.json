@@ -1,0 +1,13 @@
+{
+  "_oTIf0E3vEempdbFzvL3GnA": {
+    "clazz": "Layer",
+    "name": "swarm",
+    "constraint": []
+  },
+  "_oT9mQk3vEempdbFzvL3GnA": {
+    "clazz": "MasterDesign",
+    "name": "gen-electron",
+    "cell": [],
+    "tube": []
+  }
+}
