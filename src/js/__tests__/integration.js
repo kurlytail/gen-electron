@@ -18,8 +18,8 @@ describe('# integration test', () => {
         ).toString();
         output = output.replace(/info: Loaded generator .*electron.min.js.*/, '');
         expect(output).toMatchSnapshot();
-        output = execSync('npm install', { cwd: 'testoutput' }).toString();
-        output = execSync('npm run lint', { cwd: 'testoutput' }).toString();
-        output = execSync('npm run build', { cwd: 'testoutput' }).toString();
+        execSync('npm install', { cwd: 'testoutput', stdio: 'inherit' });
+        execSync('npm run lint', { cwd: 'testoutput', stdio: 'inherit' });
+        execSync('npm run build', { cwd: 'testoutput', stdio: 'inherit' });
     });
 });
