@@ -13,17 +13,3 @@ warn: Checkout branch master
 info: sgen is done
 "
 `;
-
-exports[`# integration test ## should print help options 1`] = `
-"Usage:
-  node sgen [OPTION]
-
-Options:
-  -m, --map=ARG+       mapping files
-  -d, --design=ARG+    design files
-  -e, --extension=ARG+ extension directories or files
-  -o, --output=ARG     output directory for generated files
-  -g, --generator=ARG+ generators to be used
-  -h, --help           display this help
-"
-`;
